@@ -1,0 +1,14 @@
+{
+  "name": "ToolPlugin",
+  "shortName": "TP",
+  "version": "0.0.1",
+  "author": "Piotrekdev",
+  "description": "A Plugin that lets you have many tools",
+  "hasAdminPanel": false,
+  "homepage": "",
+  "changelogUrl": "h",
+  "configUrl": "",
+  "downloadUrl": "",
+  "versionHistoryUrl": "s",
+  "meshCentralCompat": ">=0.4.4-s"
+}
