@@ -9,6 +9,6 @@
   "changelogUrl": "",
   "configUrl": "https://raw.githubusercontent.com/ProgramerPro-arch/PiotrekDev-Tools/refs/heads/main/config.json",
   "downloadUrl": "https://github.com/ProgramerPro-arch/PiotrekDev-Tools/archive/refs/heads/main.zip",
-  "versionHistoryUrl": "s",
+  "versionHistoryUrl": "",
   "meshCentralCompat": ">=0.4.4-s"
 }
