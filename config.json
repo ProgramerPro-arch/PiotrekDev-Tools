@@ -1,14 +1,14 @@
 {
-  "name": "ToolPlugin",
-  "shortName": "TP",
+  "name": "PiotrekDev Tools",
+  "shortName": "PT",
   "version": "0.0.1",
   "author": "Piotrekdev",
   "description": "A Plugin that lets you have many tools",
   "hasAdminPanel": false,
-  "homepage": "",
-  "changelogUrl": "h",
-  "configUrl": "",
-  "downloadUrl": "",
+  "homepage": "https://github.com/ProgramerPro-arch/PiotrekDev-Tools",
+  "changelogUrl": "",
+  "configUrl": "https://raw.githubusercontent.com/ProgramerPro-arch/PiotrekDev-Tools/main/config.json",
+  "downloadUrl": "https://github.com/ProgramerPro-arch/PiotrekDev-Tools/archive/refs/heads/main.zip",
   "versionHistoryUrl": "s",
   "meshCentralCompat": ">=0.4.4-s"
 }
