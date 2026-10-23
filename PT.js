@@ -4,7 +4,6 @@ module.exports.PT = function (parent) {
     var obj = {};
     obj.parent = parent;
 
-    // Funkcja wykonywana w interfejsie MeshCentral.
     obj.exports = ["onDeviceRefreshEnd"];
 
     obj.onDeviceRefreshEnd = function () {
@@ -50,53 +49,20 @@ module.exports.PT = function (parent) {
         name.textContent = "Urządzenie: " + nodeName;
         panel.appendChild(name);
 
-        var id = document.createElement("input");
-        id.type = "text";
-        id.readOnly = true;
-        id.value = nodeId || "Brak ID urządzenia";
-        id.style.width = "min(100%, 520px)";
-        id.setAttribute("aria-label", "ID urządzenia");
-        panel.appendChild(id);
+        var idLabel = document.createElement("p");
+        idLabel.textContent = "ID urządzenia: " +
+            (nodeId || "Brak ID urządzenia");
+        panel.appendChild(idLabel);
 
         var status = document.createElement("p");
         status.setAttribute("role", "status");
         status.textContent = "Panel załadowany.";
         panel.appendChild(status);
 
-        var copy = document.createElement("button");
-        copy.type = "button";
-        copy.textContent = "Kopiuj ID";
-        copy.disabled = !nodeId;
-
-        copy.addEventListener("click", function () {
-            if (!nodeId) return;
-
-            if (navigator.clipboard &&
-                navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(nodeId)
-                    .then(function () {
-                        status.textContent = "ID skopiowano.";
-                    })
-                    .catch(function () {
-                        id.focus();
-                        id.select();
-                        status.textContent =
-                            "Zaznaczono ID. Skopiuj je ręcznie.";
-                    });
-            } else {
-                id.focus();
-                id.select();
-                status.textContent =
-                    "Zaznaczono ID. Skopiuj je ręcznie.";
-            }
-        });
-
-        panel.appendChild(copy);
-
         var note = document.createElement("p");
         note.style.marginTop = "16px";
         note.textContent =
-            "Zdalna kamera i mikrofon nie są jeszcze zaimplementowane.";
+            "Funkcje kamery, mikrofonu i rejestrowania klawiszy nie są dostępne w tej wersji.";
         panel.appendChild(note);
 
         page.appendChild(panel);
