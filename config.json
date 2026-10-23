@@ -1,7 +1,7 @@
 {
   "name": "PiotrekDev Tools",
   "shortName": "PT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Piotrekdev",
   "description": "A Plugin that lets you have many tools",
   "hasAdminPanel": false,
