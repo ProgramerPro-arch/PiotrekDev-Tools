@@ -1,3 +1,4 @@
+
 {
   "name": "PiotrekDev Tools",
   "shortName": "PT",
@@ -7,6 +8,11 @@
   "hasAdminPanel": false,
   "homepage": "https://github.com/ProgramerPro-arch/PiotrekDev-Tools",
   "changelogUrl": "",
-  "configUrl": "https://raw.githubusercontent.com/ProgramerPro-arch/PiotrekDev-Tools/refs/heads/main/config.json",
+  "configUrl": "https://raw.githubusercontent.com/ProgramerPro-arch/PiotrekDev-Tools/main/config.json",
   "downloadUrl": "https://github.com/ProgramerPro-arch/PiotrekDev-Tools/archive/refs/heads/main.zip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProgramerPro-arch/PiotrekDev-Tools.git"
+  },
+  "meshCentralCompat": ">=0.4.4-s"
 }
