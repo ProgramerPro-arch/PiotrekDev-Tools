@@ -4,9 +4,7 @@ Plugin for MeshCentral that adds a **Narzędzia** tab.
 
 ## Current functionality
 
-- Displays the selected device name and device ID when available.
-- Copies the device ID to the clipboard.
-- Shows a basic status message in the plugin panel.
+- trying to code a webcam acces
 
 ## Installation
 
